@@ -1,8 +1,8 @@
 {
   "Head": {
-    "Agitation": {
+    "ပူပန်ကြောင့်ကြမှု": {
       "warning": "",
-      "conditions": "Generalized anxiety disorder,Medication reaction or side-effect,Alcohol withdrawal (delirium tremens),Alcohol intoxication,Dementia in head injury,Drug withdrawal,Epilepsy (temporal lobe),Hypocalcemia,Hypoparathyroidism,Intoxication,Methamphetamine use"
+      "conditions": "စိုးရိမ်ပူပန်မှုရောဂါ,Medication reaction or side-effect,Alcohol withdrawal (delirium tremens),Alcohol intoxication,Dementia in head injury,Drug withdrawal,Epilepsy (temporal lobe),Hypocalcemia,Hypoparathyroidism,Intoxication,Methamphetamine use"
     },
     "Anxiety": {
       "warning": "",

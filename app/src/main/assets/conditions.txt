@@ -1,48 +1,29 @@
 {
-	"Generalized_anxiety_disorder": [{
-			"heading": "Generalized Anxiety Disorder Symptoms",
-			"content": "Agitation\nAnxiety\nDizziness\nIrregular heartbeat\nNausea or vomiting\nNumbness or tingling\nRapid heart rate (pulse)\nExcessive sweating\nTrembling\nDifficulty concentrating\nFlushed skin\nFeeling smothered\nDifficulty staying asleep\nFearful\nPain or discomfort\nChills\nFeeling of not being able to get enough air\nLightheadedness\nNervousness\nPalpitations (fluttering in chest)\nShortness of breath\nThroat tightness\nRapid breathing\nUpset stomach\nSense of impending doom\nFeeling of being detached from reality\nJumpiness or easily startled\nSocially withdrawn"
+	"စိုးရိမ်ပူပန်မှုရောဂါ": [{
+			"heading": "စိုးရိမ်ပူပန်မှုရောဂါသည် ယေဘူယျအားဖြင့် ပင်ပန်းနွမ်းနယ်မှု သို့မဟုတ် အိပ်မပျော်မှုများကြောင့် ဖြစ်လေ့ရှိသည်။ ",
+			"content": ""
 		},
 		{
-			"heading": "Overview",
-			"content": "Everyone feels anxious sometimes, but generalized anxiety disorder is a condition in which a person has nearly constant anxiety. People with generalized anxiety disorder often feel anxious for no apparent reason. They also may feel tired, restless, irritable, short of breath, have difficulty concentrating or sleeping, or have a racing heartbeat. Doctors aren't sure what causes generalized anxiety disorder, but it can run in families. Stressful life situations also may cause the disorder. It can start anytime in life, even in childhood. Medications and psychotherapy, along with lifestyle changes, can help."
-		},
-		{
-			"heading": "What to Expect",
-			"content": "In many cases, generalized anxiety disorder begins early in life, though it can start at any age. It usually develops more slowly than other types of anxiety disorders. It can make you feel completely consumed by worry or anxious for no reason. It often can occur with substance abuse and other types of mental illness such as depression. Generalized anxiety disorder usually is treated with a combination of medications and cognitive-behavioral therapy."
-		},
-		{
-			"heading": "How Common",
-			"content": "About 6 million adults in the country have generalized anxiety disorder."
-		},
-		{
-			"heading": "Risk Factors",
-			"content": "You may be at higher risk for generalized anxiety disorder if you:\n\t\t•\tAre female\n\t\t•\tWere abused or saw a traumatic event as a child\n\t\t•\tHave a family history of generalized anxiety disorder\n\t\t•\tUse drugs or alcohol\n\t\t•\tHave a chronic illness\n\t\t•\tHave a lot of stress in your life"
-		},
-		{
-			"heading": "Treatment",
-			"content": "Treatment for generalized anxiety disorder usually includes:\n\t\t•\tCognitive-behavioral therapy\n\t\t•\tMedications, including antidepressants and anti-anxiety medications\n\t\t•\tSupport groups"
-		},
-		{
-			"heading": "Self Care",
-			"content": "You may be able to ease the symptoms of generalized anxiety disorder by:\n\t\t•\tLearning relaxation techniques\n\t\t•\tGetting exercise every day\n\t\t•\tEating a healthy diet\n\t\t•\tGetting enough sleep\n\t\t•\tAvoiding alcohol, caffeine, and illegal drugs\n\t\t•\t"
-		},
-		{
-			"heading": "When to See Your Doctor",
-			"content": "See your doctor if you think your anxiety is interfering with your relationships or daily life. Seek emergency care right away if you are having any thoughts of suicide."
-		},
-		{
-			"heading": "Questions to Ask Your Doctor",
-			"content": "Could my symptoms be caused by generalized anxiety disorder or another condition?\n\t\t•\tDo I need to take medication to reduce my anxiety? What side effects can I expect?\n\t\t•\tIs there anything else I can do to help ease my symptoms?\n\t\t•\tCan you recommend a therapist?\n\t\t•\tCan you recommend a support group or chat room I could join?"
-		},
-		{
-			"heading": "Diagnosed By",
-			"content": "To diagnose generalized anxiety disorder, your doctor will take a medical history and do a physical exam. Your doctor also may order tests to rule out other medical conditions."
-		},
-		{
-			"heading": "Made Worse By",
-			"content": "Stress, caffeine, alcohol"
-		}
+        	"heading": "အသေးစိတ် အကြောင်းအရာ",
+        	"content": "ယေဘူယျအားဖြင့် လူတစ်ဦးတွင် စိုးရိမ်ပူပန်ခြင်းရောဂါသည် အမြဲတမ်း ဖြစ်လေ့ရှိသော အခြေအနေဖြစ်သည်။ ယေဘူယျအားဖြင့် စိုးရိမ်ပူပန်မှုရောဂါ ခံစားနေရသောလူများသည် အကြောင်းပြချက် မရှိဘဲ စိုးရိမ်ပူပန်လေ့ရှိသည်။ သူတို့သည် ပင်ပန်းနွမ်းနယ်ခြင်း၊ မငြိမ်မသက်ခြင်း၊ စိတ်တိုခြင်း၊ အသက်ရှူကျပ်ခြင်း၊ အာရုံစူးစိုက်ခြင်း သို့မဟုတ် အိပ်ရန်ခက်ခဲခြင်း သို့မဟုတ် နှလုံးခုန်မြန်ခြင်းများ ခံစားရနိုင်သည်။ ယေဘူယျအားဖြင့် စိုးရိမ်ပူပန်မှုပြသာနာကို ဖြစ်ပေါ်စေသည့်အကြောင်းရင်းများသည် မိသားစုများတွင် ပြသာနာဖြစ်နိုင်သည်။ စိတ်ဖိစီးမှုများသော ဘဝအခြေအနေများသည်လည်း ရောဂါဖြစ်စေနိုင်သည်။ ၎င်းသည် ကလေးဘဝ၌ပင် အချိန်မရွေးစတင်နိုင်သည်။ လူနေမှုပုံစံ စတဲ့ပြောင်းလဲမှုများနှင့်အတူ ဆေးဝါးများနှင့် စိတ်ကုထုံးနည်းများဖြင့် ကူညီနိုင်သည်။"
+        },
+        {
+        	"heading": "ဘယ်အချိန်မှာ ဖြစ်လေ့ရှိလဲ",
+        	"content": "ကိစ္စများစွာတွင် ယေဘူယျအားဖြင့် စိုးရိမ်ပူပန်မှုရောဂါသည် အသက်အရွယ်အစောပိုင်းတွင် စတင်သည်၊ ၎င်းသည် မည်သည့်အသက်အရွယ်မဆို စတင်နိုင်သည်။ ၎င်းသည်များသောအားဖြင့် အခြားစိုးရိမ်ပူပန်မှုဆိုင်ရာရောဂါများထက် ပိုမိုနှေးကွေးသည်။ ၎င်းသည် သင့်အား လုံး၀ စိုးရိမ်ပူပန်ခြင်း သို့မဟုတ် လုံးဝ အကြောင်းပြချက် မရှိဘဲ စိုးရိမ်ခြင်းဖြင့် လုံးလုံးလျားလျား ခံစားမိစေနိုင်သည်။ ယေဘူယျအားဖြင့် စိုးရိမ်ပူပန်ခြင်းရောဂါကို များသောအားဖြင့် ဆေးဝါးများနှင့် အပြုအမူဆိုင်ရာကုထုံးတို့ဖြင့် ပေါင်းစပ်ထားသည်။"
+        },
+        {
+        	"heading": "ဘယ်လောက် အဖြစ်များလေ့ရှိလဲ",
+        	"content": "တိုင်းပြည်ရှိ အရွယ်ရောက်သူ ၆သန်းခန့်သည် စိုးရိမ်ပူပန်မှုဆိုင်ရာ ရောဂါကို ဖြစ်ပွားစေသည်။"
+        },
+        {
+        			"heading": "ကုသမှု",
+        			"content": "ယေဘူယျအားဖြင့် စိုးရိမ်ပူပန်ခြင်းရောဂါအတွက်  အပြုအမူဆိုင်ရာကုထုံးများ ၊ စိတ်ကျဆေး နှင့် စိတ်ရောဂါတိုက်ဖျက်ရေးဆေးများ အပါအ၀င် ဆေးဝါးများ နှင့် ထောက်ပံ့ရေးအဖွဲ့များ၏ အကူအညီဖြင့် ကုသနိုင်သည်။"
+        		},
+        {
+        	"heading": "ဘယ်အချိန်မှာ ဆရာဝန်နဲ့ တွေ့သင့်လဲ",
+        	"content": "သင်၏ စိုးရိမ်ပူပန်မှုသည် သင်၏ဆက်ဆံရေး သို့မဟုတ် နေ့စဉ်ဘဝကို အနှောင့်အယှက်ဖြစ်စေသည်ဟု သင်ထင်လျှင် သင်၏ ဆရာဝန်နှင့်တွေ့ပါ။ ကိုယ့်ကိုယ်ကို သတ်သေရန် ကြံစည်နေလျှင် အရေးပေါ်စောင့်ရှောက်မှု ချက်ချင်း ရယူပါ။"
+        },
+
 	],
 	"Medication_reaction_or_side-effect": [{
 			"heading": "Symptoms",
