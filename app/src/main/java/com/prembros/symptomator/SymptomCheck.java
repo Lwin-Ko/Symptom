@@ -300,38 +300,38 @@ public class SymptomCheck extends AppCompatActivity implements CompleteCondition
         menu.clear();
         getMenuInflater().inflate(R.menu.menu_symptom_check, menu);
         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
-        MenuItem menuItem = menu.findItem(R.id.action_search);
-        menuItem.setActionView(new SearchView(this));
-        SearchView searchView = (SearchView) menuItem.getActionView();
+//        MenuItem menuItem = menu.findItem(R.id.action_search);
+//        menuItem.setActionView(new SearchView(this));
+//        SearchView searchView = (SearchView) menuItem.getActionView();
 
-        searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
-        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-            @Override
-            public boolean onQueryTextSubmit(String query) {
-                return false;
-            }
-
-            @Override
-            public boolean onQueryTextChange(String newText) {
-                final List<String> filteredList = new ArrayList<>();
-                filteredList.clear();
-
-                for (int x = 0; x < symptomList.size(); x++){
-                    final String text = symptomList.get(x).toLowerCase();
-                    if (text.contains(newText))
-                        filteredList.add(symptomList.get(x));
-                }
-                if (!filteredList.contains("Could not find")) {
-                    filteredList.add("Could not find what you were looking for?\nLook in the whole Symptom directory");
-                }
-
-                recyclerView.setLayoutManager(new LinearLayoutManager(SymptomCheck.this));
-                recyclerViewAdapter = new RecyclerViewAdapter(true, SymptomCheck.this, filteredList);
-                recyclerView.setAdapter(recyclerViewAdapter);
-                recyclerViewAdapter.notifyDataSetChanged();
-                return true;
-            }
-        });
+//        searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+//        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+//            @Override
+//            public boolean onQueryTextSubmit(String query) {
+//                return false;
+//            }
+//
+//            @Override
+//            public boolean onQueryTextChange(String newText) {
+//                final List<String> filteredList = new ArrayList<>();
+//                filteredList.clear();
+//
+//                for (int x = 0; x < symptomList.size(); x++){
+//                    final String text = symptomList.get(x).toLowerCase();
+//                    if (text.contains(newText))
+//                        filteredList.add(symptomList.get(x));
+//                }
+//                if (!filteredList.contains("Could not find")) {
+//                    filteredList.add("Could not find what you were looking for?\nLook in the whole Symptom directory");
+//                }
+//
+//                recyclerView.setLayoutManager(new LinearLayoutManager(SymptomCheck.this));
+//                recyclerViewAdapter = new RecyclerViewAdapter(true, SymptomCheck.this, filteredList);
+//                recyclerView.setAdapter(recyclerViewAdapter);
+//                recyclerViewAdapter.notifyDataSetChanged();
+//                return true;
+//            }
+//        });
         return true;
     }
 
@@ -341,15 +341,15 @@ public class SymptomCheck extends AppCompatActivity implements CompleteCondition
             case android.R.id.home:
                 onBackPressed();
                 return true;
-            case R.id.action_about:
-                animationForward(revealView, touchCoordinate[0], touchCoordinate[1]);
-                new Handler().postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        fragmentManager.beginTransaction().add(R.id.menu_fragment_container, new About(), "about").commit();
-                    }
-                }, 600);
-                return true;
+//            case R.id.action_about:
+//                animationForward(revealView, touchCoordinate[0], touchCoordinate[1]);
+//                new Handler().postDelayed(new Runnable() {
+//                    @Override
+//                    public void run() {
+//                        fragmentManager.beginTransaction().add(R.id.menu_fragment_container, new About(), "about").commit();
+//                    }
+//                }, 600);
+//                return true;
             case R.id.action_text_size:
                 return false;
             default:

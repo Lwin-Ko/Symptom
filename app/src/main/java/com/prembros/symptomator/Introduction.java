@@ -176,12 +176,13 @@ public class Introduction extends AppIntro2 {
 
     private void insertSymptomListData(){
         db.insertInSymptomListTable("ပူပန်ကြောင့်ကြမှု", "Head", "All");
-        db.insertInSymptomListTable("နုနု", "Head", "All");
+        db.insertInSymptomListTable("ဆံပင်ကျွတ်ခြင်း", "Head", "All");
+//        db.insertInSymptomListTable("နုနု", "Head", "All");
 //        db.insertInSymptomListTable("Apathy", "Head", "All");
 //        db.insertInSymptomListTable("Bald spots", "Head", "All");
 //        db.insertInSymptomListTable("Blackouts (memory time loss)", "Head", "All");
 //        db.insertInSymptomListTable("Bleeding", "Head", "All");
-//        db.insertInSymptomListTable("Brittle hair", "Head", "All");
+
 //        db.insertInSymptomListTable("Broken bone (single fracture)", "Head", "All");
 //        db.insertInSymptomListTable("Broken bones (multiple fractures)", "Head", "All");
 //        db.insertInSymptomListTable("Bruising or discoloration", "Head", "All");

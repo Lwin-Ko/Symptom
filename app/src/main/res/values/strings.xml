@@ -22,17 +22,15 @@
         <!--<item>60+</item>-->
     <!--</string-array>-->
     <string-array name="body_parts">
-        <item>Concerned body area</item>
-        <item>Head area</item>
-        <item>Chest area</item>
-        <item>Abdomen</item>
-        <item>Back area</item>
-        <item>Pelvic area</item>
-        <item>Arm</item>
-        <item>Legs</item>
+        <item>ကိုယ်ခန္ဓာအစိတ်အပိုင်းအားရွေးချယ်ပါ</item>
+        <item>ဦးခေါင်းပိုင်း</item>
+        <item>ရင်ဘတ်ပိုင်း</item>
+        <item>ဝမ်းဗိုက်ပိုင်း</item>
+        <item>ကျောရိုးပိုင်း</item>
+        <item>ခြေထောက်ပိုင်း</item>
     </string-array>
     <string-array name="head_area">
-        <item>Select body part from head area</item>
+        <item>ဦးခေါင်းပိုင်းမှအစိတ်အပိုင်းအားရွေးချယ်ပါ</item>
         <item>Head</item>
         <item>Eyes</item>
         <item>Nose</item>
@@ -43,43 +41,24 @@
         <item>Neck</item>
     </string-array>
     <string-array name="chest_area">
-        <item>Select body part from chest area</item>
+        <item>ရင်ဘတ်ပိုင်းမှအစိတ်အပိုင်းအားရွေးချယ်ပါ</item>
         <item>Chest</item>
         <item>Side of chest</item>
         <item>Sternum</item>
     </string-array>
     <string-array name="abdomen">
-        <item>Select body part from abdomen</item>
+        <item>ဝမ်းဗိုက်ပိုင်းမှအစိတ်အပိုင်းအားရွေးချယ်ပါ</item>
         <item>Upper abdomen</item>
         <item>Lower abdomen</item>
     </string-array>
     <string-array name="back_area">
-        <item>Select body part from back area</item>
+        <item>ကျောရိုးပိုင်းမှအစိတ်အပိုင်းအားရွေးချယ်ပါ</item>
         <item>Back</item>
         <item>Upper spine</item>
         <item>Lower spine</item>
     </string-array>
-    <string-array name="pelvic">
-        <item>Select body part from pelvic area</item>
-        <item>Pelvis</item>
-        <item>Genitals</item>
-        <item>Buttock</item>
-        <item>Hip</item>
-        <item>Groin</item>
-    </string-array>
-    <string-array name="arm">
-        <item>Select body part from arm</item>
-        <item>Shoulder</item>
-        <item>Armpit</item>
-        <item>Upper arm</item>
-        <item>Elbow</item>
-        <item>Fore arm</item>
-        <item>Wrist</item>
-        <item>Hand</item>
-        <item>Fingers</item>
-    </string-array>
     <string-array name="legs">
-        <item>Select body part from legs</item>
+        <item>ခြေထောက်ပိုင်းမှအစိတ်အပိုင်းအားရွေးချယ်ပ</item>
         <item>Thigh</item>
         <item>Hamstring</item>
         <item>Knee</item>

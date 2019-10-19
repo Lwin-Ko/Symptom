@@ -50,28 +50,7 @@ public class MainActivity extends AppCompatActivity implements
                         navigation.setItemIconTintList(ContextCompat.getColorStateList(navigation.getContext(), R.color.colorSecondaryText));
                     }
                     return true;
-                case R.id.navigation_by_first_aid:
-                    if (fragmentManager.findFragmentByTag("firstAidFragment") == null) {
-                        fragmentManager.beginTransaction()
-                                .setCustomAnimations(R.anim.float_up, R.anim.sink_up)
-                                .replace(R.id.main_fragment_container, new FirstAidFragment(), "firstAidFragment")
-                                .commit();
-                        navigation.setItemBackgroundResource(R.color.colorDividerLight);
-                        navigation.setItemTextColor(ContextCompat.getColorStateList(navigation.getContext(), R.color.colorSecondaryText));
-                        navigation.setItemIconTintList(ContextCompat.getColorStateList(navigation.getContext(), R.color.colorSecondaryText));
-                    }
-                    return true;
-                case R.id.navigation_by_services:
-                    if (fragmentManager.findFragmentByTag("servicesFragment") == null) {
-                        fragmentManager.beginTransaction()
-                                .setCustomAnimations(R.anim.float_up, R.anim.sink_up)
-                                .replace(R.id.main_fragment_container, new ServicesFragment(), "servicesFragment")
-                                .commit();
-                        navigation.setItemBackgroundResource(R.color.colorSecondaryDark);
-                        navigation.setItemTextColor(ContextCompat.getColorStateList(navigation.getContext(), R.color.white_text_icons));
-                        navigation.setItemIconTintList(ContextCompat.getColorStateList(navigation.getContext(), R.color.white_text_icons));
-                    }
-                    return true;
+
                 default:
                     return false;
             }
@@ -186,55 +165,55 @@ public class MainActivity extends AppCompatActivity implements
         return true;
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
-            case android.R.id.home:
-                onBackPressed();
-                return true;
-            case R.id.action_all_conditions:
-                navigation.startAnimation(AnimationUtils.loadAnimation(MainActivity.this, R.anim.sink_down));
-                navigation.setVisibility(View.INVISIBLE);
-                final View revealView1 = this.findViewById(R.id.menu_fragment_container);
-                revealView1.setBackgroundResource(R.color.colorSecondary);
-                animationForward(revealView1, touchCoordinate);
-                new Handler().postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-//                        revealView1.setBackgroundResource(R.color.colorDisabledLight);
-                        if (isFragmentActive("about")) {
-                            fragmentManager.beginTransaction()
-                                    .setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out)
-                                    .replace(R.id.menu_fragment_container, new CompleteConditionList(), "completeConditionList")
-                                    .commit();
-                        } else fragmentManager.beginTransaction()
-                                .setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out)
-                                .add(R.id.menu_fragment_container, new CompleteConditionList(), "completeConditionList")
-                                .commit();
-
-//                        actionBar.hide();
-                    }
-                }, 500);
-                return true;
-            case R.id.action_about:
-                final FrameLayout revealView = (FrameLayout) this.findViewById(R.id.menu_fragment_container);
-                revealView.setBackgroundResource(R.color.colorSecondary);
-                animationForward(revealView, touchCoordinate);
-                revealView.setVisibility(View.VISIBLE);
-                navigation.setVisibility(View.GONE);
-                new Handler().postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        if (isFragmentActive("completeConditionList"))
-                            fragmentManager.beginTransaction().replace(R.id.menu_fragment_container, new About(), "about").commit();
-                        else fragmentManager.beginTransaction().add(R.id.menu_fragment_container, new About(), "about").commit();
-                    }
-                }, 600);
-                return true;
-            default:
-                return false;
-        }
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        switch (item.getItemId()){
+//            case android.R.id.home:
+//                onBackPressed();
+//                return true;
+//            case R.id.action_all_conditions:
+//                navigation.startAnimation(AnimationUtils.loadAnimation(MainActivity.this, R.anim.sink_down));
+//                navigation.setVisibility(View.INVISIBLE);
+//                final View revealView1 = this.findViewById(R.id.menu_fragment_container);
+//                revealView1.setBackgroundResource(R.color.colorSecondary);
+//                animationForward(revealView1, touchCoordinate);
+//                new Handler().postDelayed(new Runnable() {
+//                    @Override
+//                    public void run() {
+////                        revealView1.setBackgroundResource(R.color.colorDisabledLight);
+//                        if (isFragmentActive("about")) {
+//                            fragmentManager.beginTransaction()
+//                                    .setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out)
+//                                    .replace(R.id.menu_fragment_container, new CompleteConditionList(), "completeConditionList")
+//                                    .commit();
+//                        } else fragmentManager.beginTransaction()
+//                                .setCustomAnimations(android.R.anim.fade_in, android.R.anim.fade_out)
+//                                .add(R.id.menu_fragment_container, new CompleteConditionList(), "completeConditionList")
+//                                .commit();
+//
+////                        actionBar.hide();
+//                    }
+//                }, 500);
+//                return true;
+//            case R.id.action_about:
+//                final FrameLayout revealView = (FrameLayout) this.findViewById(R.id.menu_fragment_container);
+//                revealView.setBackgroundResource(R.color.colorSecondary);
+//                animationForward(revealView, touchCoordinate);
+//                revealView.setVisibility(View.VISIBLE);
+//                navigation.setVisibility(View.GONE);
+//                new Handler().postDelayed(new Runnable() {
+//                    @Override
+//                    public void run() {
+//                        if (isFragmentActive("completeConditionList"))
+//                            fragmentManager.beginTransaction().replace(R.id.menu_fragment_container, new About(), "about").commit();
+//                        else fragmentManager.beginTransaction().add(R.id.menu_fragment_container, new About(), "about").commit();
+//                    }
+//                }, 600);
+//                return true;
+//            default:
+//                return false;
+//        }
+//    }
 
     @Override
     public void onSymptomFragmentInteraction(String selectedSex, String selectedBodyArea, String selectedBodyPart) {

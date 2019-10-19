@@ -2,23 +2,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <item
-        android:id="@+id/action_search"
-        android:icon="@drawable/ic_search"
-        android:title="@string/search"
-        app:showAsAction="always|collapseActionView"
-        android:actionViewClass="android.support.v7.widget.SearchView" />
 
-    <item
-        android:id="@+id/action_all_conditions"
-        android:icon="@drawable/ic_hospital_logo"
-        android:title="@string/browse_all_conditions"
-        app:showAsAction="ifRoom" />
 
-    <item
-        android:id="@+id/action_about"
-        android:icon="@drawable/ic_info"
-        android:title="@string/about"
-        app:showAsAction="ifRoom"/>
+
 
 </menu>

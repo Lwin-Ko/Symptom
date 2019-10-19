@@ -70,18 +70,7 @@ public class About extends Fragment {
 //                startActivity(Intent.createChooser(emailIntent, "Send email"));
 //            }
 //        });
-        TextView PremBrosLink = (TextView) rootView.findViewById(R.id.PremBros_link);
-        PremBrosLink.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try {
-                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/developer?id=Prem+Bros")));
-                } catch (android.content.ActivityNotFoundException e){
-                    e.printStackTrace();
-                    Toast.makeText(getContext(), "No app found for this action!", Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
+
 
         return rootView;
     }

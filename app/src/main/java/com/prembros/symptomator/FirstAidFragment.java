@@ -241,9 +241,9 @@ public class FirstAidFragment extends Fragment implements RecyclerView.OnItemTou
         menu.clear();
         inflater.inflate(R.menu.menu_first_aid, menu);
         SearchManager searchManager = (SearchManager) getActivity().getSystemService(Context.SEARCH_SERVICE);
-        MenuItem menuItem = menu.findItem(R.id.action_search);
-        menuItem.setActionView(new SearchView(getContext()));
-        searchView = (SearchView) menuItem.getActionView();
+//        MenuItem menuItem = menu.findItem(R.id.action_search);
+//        menuItem.setActionView(new SearchView(getContext()));
+//        searchView = (SearchView) menuItem.getActionView();
 
         searchView.setSearchableInfo(searchManager.getSearchableInfo(getActivity().getComponentName()));
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {

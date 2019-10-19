@@ -221,12 +221,7 @@ public class PossibleConditionDetails extends Fragment implements View.OnClickLi
                 increaseTextSize.setOnClickListener(this);
                 decreaseTextSize.setOnClickListener(this);
                 return false;
-            case R.id.action_info:
-                AlertDialog.Builder dialog = new AlertDialog.Builder(getContext());
-                dialog.setTitle(R.string.info)
-                        .setMessage(R.string.disclaimer_conditions)
-                        .show();
-                return false;
+
             default:
                 return false;
         }

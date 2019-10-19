@@ -2,8 +2,12 @@
   "Head": {
     "ပူပန်ကြောင့်ကြမှု": {
       "warning": "",
-      "conditions": "စိုးရိမ်ပူပန်မှုရောဂါ,Medication reaction or side-effect,Alcohol withdrawal (delirium tremens),Alcohol intoxication,Dementia in head injury,Drug withdrawal,Epilepsy (temporal lobe),Hypocalcemia,Hypoparathyroidism,Intoxication,Methamphetamine use"
+      "conditions": "စိုးရိမ်ပူပန်မှုရောဂါ"
     },
+    "ဆံပင်ကျွတ်ခြင်း": {
+          "warning": "",
+          "conditions": "ဆံပင်ထိပ်ကွက်ခြင်း"
+        },
     "Anxiety": {
       "warning": "",
       "conditions": "Generalized anxiety disorder,Depression (Adult),Excessive caffeine use,Panic attack,Mitral valve prolapse,Agoraphobia,Cocaine abuse,Depression (Postpartum),Epilepsy (complex partial seizures),Epilepsy (simple partial seizures),Epilepsy (temporal lobe),Hyperthyroidism,Hyperventilation,Insulin reaction (hypoglycemia),Low blood sugar (hypoglycemia),Social anxiety disorder,Thyroid storm,Hypopituitarism,Mad cow disease,Fibromyalgia"

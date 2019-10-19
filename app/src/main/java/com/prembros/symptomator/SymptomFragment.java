@@ -113,28 +113,8 @@ public class SymptomFragment extends Fragment {
                         selectBodyPart.startAnimation(AnimationUtils.loadAnimation(context, R.anim.float_down));
                         selectBodyPart.setVisibility(View.VISIBLE);
                         break;
-                    case 5:
-                        bodyPartList = getResources().getStringArray(R.array.pelvic);
-                        bodyPartListAdapter = new ArrayAdapter<>(
-                                context, R.layout.spinner_item, bodyPartList
-                        );
-                        bodyPartListAdapter.setDropDownViewResource(R.layout.spinner_item);
-                        bodyPartListAdapter.notifyDataSetChanged();
-                        selectBodyPart.setAdapter(bodyPartListAdapter);
-                        selectBodyPart.startAnimation(AnimationUtils.loadAnimation(context, R.anim.float_down));
-                        selectBodyPart.setVisibility(View.VISIBLE);
-                        break;
-                    case 6:
-                        bodyPartList = getResources().getStringArray(R.array.arm);
-                        bodyPartListAdapter = new ArrayAdapter<>(
-                                context, R.layout.spinner_item, bodyPartList
-                        );
-                        bodyPartListAdapter.setDropDownViewResource(R.layout.spinner_item);
-                        bodyPartListAdapter.notifyDataSetChanged();
-                        selectBodyPart.setAdapter(bodyPartListAdapter);
-                        selectBodyPart.startAnimation(AnimationUtils.loadAnimation(context, R.anim.float_down));
-                        selectBodyPart.setVisibility(View.VISIBLE);
-                        break;
+
+
                     case 7:
                         bodyPartList = getResources().getStringArray(R.array.legs);
                         bodyPartListAdapter = new ArrayAdapter<>(
