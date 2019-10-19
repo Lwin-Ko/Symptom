@@ -1,5 +1,5 @@
 ﻿<resources>
-    <string name="app_name">Symptomator</string>
+    <string name="app_name">ကျန်းမာရေး</string>
     <string name="symptom">Symptoms</string>
     <string name="hospital">Hospital details</string>
     <!--<string name="common_diseases">Common Diseases</string>-->
@@ -10,7 +10,7 @@
     <string name="male">Male</string>
     <string name="female">Female</string>
     <!--<string name="concerned_body_part">Concerned body part</string>-->
-    <string name="symptom_header">Check yourself\nBefore you wreck yourself</string>
+
     <!--<string name="submit">Submit</string>-->
 
     <!--<string-array name="ages">-->
@@ -297,15 +297,15 @@
     <string name="search">Search…</string>
     <string name="services">Services</string>
     <!--<string name="services_subtitle">Hospital|Doctor|Emergency</string>-->
-    <string name="symptom_subtitle">Prevention, better than cure</string>
+    <string name="symptom_subtitle">မဖြစ်ခင်ကြိုတင်ကာကွယ်ပါ</string>
     <string name="first_aid_subtitle">You can save a life</string>
 
-    <!--<string name="title_activity_splash_screen">SplashScreen</string>-->
+
     <!--<string name="dummy_button">Dummy Button</string>-->
     <!--<string name="dummy_content">DUMMY\nCONTENT</string>-->
 
     <!--ABOUT PAGE STRINGS-->
-    <!--<string name="about_header">About</string>-->
+
     <string name="developers">Developers</string>
     <string name="facebook_handles">Facebook handles\n(click on name to open profile)</string>
     <string name="developer_prem_suman">Prem Suman\t\t(@PremSuman8)</string>
@@ -392,7 +392,6 @@
     <string name="nearest_hospital">Nearest Hospital</string>
     <string name="call_emergency_services">Call Emergency services</string>
     <string name="emergency_number">Emergency number</string>
-    <string name="or_call_emergency_services">OR CALL EMERGENCY SERVICES</string>
     <string name="get_to_the_nearest_doctor">Get to the nearest doctor</string>
     <string name="nearest_doctor">Nearest Doctor</string>
     <string name="sorry">Sorry</string>

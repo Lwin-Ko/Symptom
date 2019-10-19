@@ -16,14 +16,7 @@
         android:padding="@dimen/activity_horizontal_margin"
         android:gravity="center_horizontal">
 
-        <TextView
-            android:gravity="center_horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
-            android:text="@string/symptom_header" />
+
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -139,27 +132,9 @@
         </com.balysv.materialripple.MaterialRippleLayout>
 
 
-        <TextView
-            android:gravity="center_horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:layout_marginTop="40dp"
-            android:textStyle="bold"
-            android:text="@string/or_call_emergency_services" />
 
 
-        <android.support.design.widget.FloatingActionButton
-            android:id="@+id/call_108"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/activity_horizontal_margin"
-            android:layout_marginBottom="@dimen/activity_horizontal_margin"
-            app:fabSize="normal"
-            app:backgroundTint="@color/colorSecondary"
-            android:src="@drawable/ic_call_emergency_services"
-            app:srcCompat="@drawable/ic_call_emergency_services"
-            tools:ignore="VectorDrawableCompat" />
+
         
     </LinearLayout>
 

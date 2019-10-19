@@ -55,7 +55,7 @@
             <meta-data
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
-        </activity>
+        </activity>/
         <activity android:name=".SymptomCheck"
             android:theme="@style/AppTheme.colorDisabled">
             <intent-filter>
@@ -93,36 +93,11 @@
                 android:value="@string/google_maps_key" />
         -->
 
-        <activity android:name=".FirstAidCheck"
-            android:theme="@style/AppTheme.colorDisabled">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.prembros.symptomator.MainActivity" />
-        </activity>
-        <activity
-            android:name=".MapsActivity"
-            android:label="@string/title_activity_maps"
-            android:screenOrientation="portrait"
-            android:configChanges="orientation|screenLayout|keyboard"
-            android:theme="@style/AppTheme.colorDisabled">
-            <intent-filter>
-                 <action android:name="android.intent.action.VIEW"/>
-            </intent-filter>
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.prembros.symptomator.MainActivity" />
-        </activity>
 
-        <activity
-            android:name=".PlaceDetailsActivity"
-            android:theme="@style/AppTheme.colorDisabled"
-            android:label="@string/place_details" >
-            <intent-filter>
-                <action android:name=".PlaceDetails" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".CallEmergencyServices"/>
+
+
+
+
     </application>
 
 </manifest>

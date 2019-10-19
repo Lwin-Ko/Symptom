@@ -341,15 +341,6 @@ public class SymptomCheck extends AppCompatActivity implements CompleteCondition
             case android.R.id.home:
                 onBackPressed();
                 return true;
-//            case R.id.action_about:
-//                animationForward(revealView, touchCoordinate[0], touchCoordinate[1]);
-//                new Handler().postDelayed(new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        fragmentManager.beginTransaction().add(R.id.menu_fragment_container, new About(), "about").commit();
-//                    }
-//                }, 600);
-//                return true;
             case R.id.action_text_size:
                 return false;
             default:

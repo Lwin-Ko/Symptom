@@ -66,11 +66,7 @@ class PageAdapter extends BaseAdapter implements ListAdapter, View.OnClickListen
                     inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                     view = inflater.inflate(R.layout.page_list_item, null);
                     break;
-                case VIEW_TYPE_EMERGENCY:
-                    inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-                    view = inflater.inflate(R.layout.page_list_item_emergency, null);
-                    view.findViewById(R.id.call_108).setOnClickListener(this);
-                    break;
+
                 default:
                     break;
             }
@@ -91,10 +87,9 @@ class PageAdapter extends BaseAdapter implements ListAdapter, View.OnClickListen
         return view;
     }
 
+
     @Override
-    public void onClick(View view) {
-        if (view.getId() == R.id.call_108) {
-            new CallEmergencyServices(context);
-        }
+    public void onClick(View v) {
+
     }
 }

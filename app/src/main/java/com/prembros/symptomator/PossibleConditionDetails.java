@@ -157,9 +157,6 @@ public class PossibleConditionDetails extends Fragment implements View.OnClickLi
                     e.printStackTrace();
                 }
                 result = new JSONParser().parseConditionPage(jsonObject, strings[1]);
-            } else {
-                Log.d("ERROR in firstAidCheck:", "Class - FirstAidCheck, method - parseInBackground, JSONString was null");
-                result = null;
             }
             if (result != null && result.isEmpty()) {
                 PageBeans pageBeans = new PageBeans();

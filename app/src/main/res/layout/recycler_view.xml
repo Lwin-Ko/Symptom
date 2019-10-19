@@ -13,5 +13,5 @@
     app:fastScrollThumbColor="@color/colorSecondary"
     app:fastScrollTrackColor="@color/transparent"
     app:layoutManager="LinearLayoutManager"
-    tools:context="com.prembros.symptomator.FirstAidFragment"
+
     tools:listitem="@layout/list_item" />
